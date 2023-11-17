@@ -1,0 +1,104 @@
+/* En tu archivo CSS o en línea en el mismo componente */
+
+/* Puedes ajustar estos estilos según tus necesidades */
+.max-w-sm {
+    max-width: 20rem; /* Ajusta el ancho máximo según tu diseño */
+  }
+  
+  .rounded {
+    border-radius: 0.5rem; /* Ajusta el radio de borde según tu diseño */
+  }
+  
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .px-6 {
+    padding-left: 1.5rem; /* Ajusta el relleno según tu diseño */
+    padding-right: 1.5rem;
+  }
+  
+  .py-4 {
+    padding-top: 1rem; /* Ajusta el relleno superior según tu diseño */
+    padding-bottom: 1rem;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .text-xl {
+    font-size: 1.25rem; /* Ajusta el tamaño de la fuente según tu diseño */
+  }
+  
+  .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .text-gray-700 {
+    color: #4a5568; /* Ajusta el color de texto según tu diseño */
+  }
+  
+  .text-base {
+    font-size: 1rem; /* Ajusta el tamaño de la fuente según tu diseño */
+  }
+  
+  .px-6 {
+    padding-left: 1.5rem; /* Ajusta el relleno según tu diseño */
+    padding-right: 1.5rem;
+  }
+  
+  .pt-4 {
+    padding-top: 1rem; /* Ajusta el relleno superior según tu diseño */
+  }
+  
+  .pb-2 {
+    padding-bottom: 0.5rem; /* Ajusta el relleno inferior según tu diseño */
+  }
+  
+  .inline-block {
+    display: inline-block;
+  }
+  
+  .bg-gray-200 {
+    background-color: #edf2f7; /* Ajusta el color de fondo según tu diseño */
+  }
+  
+  .rounded-full {
+    border-radius: 9999px; /* Un valor grande para un borde completamente redondo */
+  }
+  
+  .px-3 {
+    padding-left: 0.75rem; /* Ajusta el relleno izquierdo según tu diseño */
+    padding-right: 0.75rem;
+  }
+  
+  .py-1 {
+    padding-top: 0.25rem; /* Ajusta el relleno superior según tu diseño */
+    padding-bottom: 0.25rem;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem; /* Ajusta el tamaño de la fuente según tu diseño */
+  }
+  
+  .font-semibold {
+    font-weight: 600; /* Ajusta el peso de la fuente según tu diseño */
+  }
+  
+  .mr-2 {
+    margin-right: 0.5rem;
+  }
+  
+  .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+  

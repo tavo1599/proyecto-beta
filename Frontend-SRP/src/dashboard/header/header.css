@@ -1,0 +1,106 @@
+  
+.header-container{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-right{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.options-icons{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.icon-help{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-help i{
+    font-size: 28px;
+}
+.icon-notification{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-notification i{
+    font-size: 28px;
+}
+.separator-content{
+    width: 18px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+.separator{
+    width: 3px;
+    height: 32px;
+    background: #222;
+    border-radius: 3px;
+}
+
+.user-info{
+    width: 180px;
+    height: 100%;
+    display: flex;
+}
+.info-img{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.img-user{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-user img{
+    width: 42px;
+    height: 42px;
+}
+
+.info-text{
+    width: calc(100% - 42px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-username{
+    font-size: 16px;
+    font-weight: 600;
+    user-select: none;
+}
+.text-rol{
+    transform: translateY(-3px);
+    font-size: 13px;
+    user-select: none;
+}
+
+.option-menu{
+    width: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.option-menu i {
+    font-size: 25px;
+}

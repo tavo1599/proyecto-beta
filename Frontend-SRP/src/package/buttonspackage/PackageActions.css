@@ -1,0 +1,30 @@
+.edit-button,
+.delete-button,
+.view-button {
+    color: #495057;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Agregamos una transición para suavizar el cambio de color */
+}
+
+.edit-button i,
+.delete-button i,
+.view-button i {
+    margin-right: 5px;
+}
+
+.view-button {
+    background-color: #adb5bd;
+}
+
+
+.edit-button:hover,
+.delete-button:hover,
+.view-button:hover {
+    background-color: rgb(0, 123, 247);
+    
+}

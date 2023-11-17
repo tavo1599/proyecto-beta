@@ -1,0 +1,240 @@
+.package-container{
+    width: 100%;
+    height: 100%;
+    min-height: calc(100% - 60px);
+    padding: 0 15px;
+    background: #E5E9F2;
+}
+
+.container{
+    width: 100%;
+    /* min-width: 500px; */
+    height: calc(100vh - 60px);
+    /* border: 1px solid; */
+    /* overflow: auto; */
+}
+.header-info{
+    width: 100%;
+    height: 150px;
+    /* border:  1px solid #455; */
+    padding: 0 15px;
+}
+.content-info{
+    width: 100%;
+    height: calc(100% - 150px);
+    min-height: 200px;
+    padding-top: 20px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.content-top{
+    width: 100%;
+    height: 40px;
+    min-height: 40px;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.options-left{
+    height: 100%;
+}
+.button-create{
+    width: 145px;
+    height: 100%;
+}
+.options-right{
+    height: 100%;
+    display: flex;
+    gap: 5px;
+}
+.option-list{
+    width: 40px;
+    height: 100%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.option-card{
+    width: 40px;
+    height: 100%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-body{
+    width: 100%;
+    height: calc(100% - 100px);
+    border: 1px solid #D8DCE6;
+    overflow: auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.content-button{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid purple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Añade este estilo al final de tu CSS existente */
+
+.content-body table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-body th, .content-body td {
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    text-align: left;
+}
+
+.content-body thead {
+    background-color: #f5f5f5;
+}
+
+.content-body tbody {
+    max-height: calc(100% - 40px);
+    overflow-y: auto;
+}
+
+.content-body img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 5px;
+    
+}
+
+/* Estilo para resaltar la fila al pasar el ratón */
+.content-body tbody tr:hover {
+    background-color: #e8e8e8;
+}
+
+/* Estilo para los botones de editar, eliminar y ver */
+.package-actions {
+    display: flex;
+    gap: 10px;
+}
+.pagination {
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .pagination li {
+    margin-right: 5px;
+  }
+  
+  .pagination a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .pagination a:hover {
+    background-color: #ddd;
+  }
+  
+  .pagination .active a {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .fixed-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  
+  .fixed-table th, .fixed-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .fixed-table th {
+    background-color: #f2f2f2;
+  }
+  .fixed-table th:first-child, .fixed-table td:first-child {
+    width: 50px; /* Ajusta el ancho según tus necesidades */
+    max-width: 50px; /* Ajusta el ancho máximo según tus necesidades */
+}
+
+
+
+
+.content-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .card-header {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-details {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button-edit,
+  .button-delete {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-edit {
+    margin-right: 5px;
+  }

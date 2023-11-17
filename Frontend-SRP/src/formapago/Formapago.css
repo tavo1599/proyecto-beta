@@ -1,0 +1,114 @@
+/* FormaPago.css */
+
+/* ... (otros estilos) */
+
+.package-container {
+  /* Mantén los estilos de la sección Package */
+}
+
+.container {
+  /* Mantén los estilos de la sección Package */
+}
+
+.header-info {
+  /* Mantén los estilos de la sección Package */
+}
+
+.content-info {
+  /* Mantén los estilos de la sección Package */
+}
+
+.content-top {
+  /* Mantén los estilos de la sección Package */
+}
+
+.options-left {
+  /* Mantén los estilos de la sección Package */
+}
+
+.button-create {
+  /* Mantén los estilos de la sección Package */
+}
+
+.options-right {
+  /* Mantén los estilos de la sección Package */
+}
+
+.option-list,
+.option-card {
+  /* Mantén los estilos de la sección Package */
+}
+
+.content-body {
+  /* Mantén los estilos de la sección Package */
+}
+
+.content-button {
+  /* Mantén los estilos de la sección Package */
+}
+
+.table-container {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #D8DCE6;
+  overflow: auto;
+  margin-top: 15px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.table-container th,
+.table-container td {
+  padding: 12px;
+  text-align: left;
+}
+
+.table-container tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table-container tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.button-edit,
+.button-delete {
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.button-edit {
+  background-color: orange;
+}
+
+.button-delete {
+  background-color: red;
+}
+
+.button-edit i,
+.button-delete i {
+  margin-right: 5px;
+}
+
+.button-edit:hover,
+.button-delete:hover {
+  background-color: #0056b3;
+}
+
+.preview-image {
+  max-width: 100%;
+  max-height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
